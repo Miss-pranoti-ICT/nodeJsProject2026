@@ -17,7 +17,7 @@ const db = mysql.createConnection({
     database: 'LoginDB'      // The database you created ('LoginDB')
 });
 
-// Connect to MySQL database
+// Connect to MySQL database checing the next push
 db.connect((err) => {
     if (err) {
         console.log('Error connecting to database:', err);
